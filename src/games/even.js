@@ -1,10 +1,9 @@
 import readlineSync from 'readline-sync';
+import getWelcome from '../index.js';
 
 export default function evenGame() {
-console.log('Welcome to the Brain Games!');
-
-const userName = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${userName}!`);
+    
+    const userName = getWelcome();
 
 for (let i = 0; i < 3; i += 1) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
