@@ -13,8 +13,8 @@ export default function gcdGame() {
 
  for (let i = 0; i < 3; i += 1) {
 
-  let runNumber1 = Math.floor(Math.random(1, 10) * (10 - 1 + 1)) + 1;
-  let runNumber2 = Math.floor(Math.random(1, 10) * (10 - 1 + 1)) + 1;
+  let runNumber1 = Math.floor(Math.random(1, 20) * (20 - 1 + 1)) + 1;
+  let runNumber2 = Math.floor(Math.random(1, 20) * (20 - 1 + 1)) + 1;
   
   console.log(`Question: ${runNumber1} ${runNumber2}`); 
         
