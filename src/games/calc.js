@@ -40,5 +40,5 @@ export default function calcGame() {
     return ;
  }
 }
-console.log(`Congratulation, ${userName}!`);
+console.log(`Congratulations, ${userName}!`);
 }

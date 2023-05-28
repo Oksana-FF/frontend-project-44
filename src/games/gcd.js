@@ -29,5 +29,5 @@ export default function gcdGame() {
     return ;
     }
  }
- console.log(`Congratulation, ${userName}!`);
+ console.log(`Congratulations, ${userName}!`);
 }

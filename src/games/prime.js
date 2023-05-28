@@ -29,5 +29,5 @@ export default function primeGame() {
     }
  }
  
- console.log(`Congratulation, ${userName}!`);
+ console.log(`Congratulations, ${userName}!`);
 }

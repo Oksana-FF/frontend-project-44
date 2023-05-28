@@ -31,5 +31,5 @@ export default function progressionGame() {
    return ;
  }
 }
-console.log(`Congratulation, ${userName}!`);
+console.log(`Congratulations, ${userName}!`);
 }
