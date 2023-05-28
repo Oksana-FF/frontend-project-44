@@ -21,7 +21,8 @@ export default function progressionGame() {
  const safeIndex = runProgression[runIndex];
  runProgression[runIndex] = '..';
   
- console.log(`Question: ${String(runProgression)}`);
+ const correctArr = runProgression.join(' ');
+ console.log(`Question: ${String(correctArr)}`);
  const userAnswer = readlineSync.question('Your answer: ');
 
  if (Number(userAnswer) === safeIndex) {
