@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getWelcome from '../index.js';
 
-export default function calcGame() {  
+export default function calcGame() {
   const userName = getWelcome();
   console.log('What is the result of the expression?');
 
@@ -13,7 +13,6 @@ export default function calcGame() {
     const ranIndex = Math.floor(Math.random() * operation.length);
     const ranOperation = operation[ranIndex];
     console.log(`Question: ${runNumber2} ${ranOperation} ${runNumber1}`);
-  
     const userAnswer = readlineSync.question('Your answer: ');
 
     let correctAnswer = 0;
