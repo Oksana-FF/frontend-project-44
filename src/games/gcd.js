@@ -14,7 +14,7 @@ export default function gcdGame() {
   for (let i = 0; i < 3; i += 1) {
     const runNumber1 = Math.floor(Math.random(1, 20) * (20 - 1 + 1)) + 1;
     const runNumber2 = Math.floor(Math.random(1, 20) * (20 - 1 + 1)) + 1;
-    console.log(`Question: ${runNumber1} ${runNumber2}`);  
+    console.log(`Question: ${runNumber1} ${runNumber2}`); 
     const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = NOD(runNumber1, runNumber2);
 
