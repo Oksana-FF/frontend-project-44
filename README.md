@@ -13,7 +13,7 @@
 
 ### Игра №1 "Определение чености показываемого числа"
 Команда: brain-even
-[![asciicast] (https://asciinema.org/a/MyzF4oApw56o0fMtoGgWvrr01)
+[![asciicast](https://asciinema.org/a/MyzF4oApw56o0fMtoGgWvrr01.svg)](https://asciinema.org/a/MyzF4oApw56o0fMtoGgWvrr01)
 
 ### Игра №2 "Вычисление результата случайных арифметических операций"
 Команда: brain-calc
