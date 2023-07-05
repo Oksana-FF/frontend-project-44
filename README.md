@@ -1,5 +1,3 @@
-Игры разума
-
 ### Тесты:
 [![Actions Status](https://github.com/Oksana-FF/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Oksana-FF/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/740d11b590b1744b596f/maintainability)](https://codeclimate.com/github/Oksana-FF/frontend-project-44/maintainability)
@@ -11,7 +9,7 @@
 1. Клонирование репозитория: git clone git@github.com:Oksana-FF/frontend-project-44.git
 2. Выполнить команду: make install
 
-### Игра №1 "Определение чености показываемого числа"
+### Игра №1 "Определение четности числа"
 Команда: brain-even
 [![asciicast](https://asciinema.org/a/MyzF4oApw56o0fMtoGgWvrr01.svg)](https://asciinema.org/a/MyzF4oApw56o0fMtoGgWvrr01)
 
@@ -23,11 +21,11 @@
 Команда: brain-gcd
 [![asciicast](https://asciinema.org/a/oOFZ2LgFzEv5FUYVGFbAUyeeE.svg)](https://asciinema.org/a/oOFZ2LgFzEv5FUYVGFbAUyeeE)
 
-### Игра №4 "Определение пропущенного члена прогрессии"
+### Игра №4 "Определение пропущенного числа в прогрессии"
 Команда: brain-progression
 [![asciicast](https://asciinema.org/a/GxSBjDHbls8sQLqsaFacKNZas.svg)](https://asciinema.org/a/GxSBjDHbls8sQLqsaFacKNZas)
 
-### Игра №5 "Определение того, простое ли число"
+### Игра №5 "Определение простое число или нет"
 Команда: brain-prime
 [![asciicast](https://asciinema.org/a/XdsNXnI5mHb1mKuotnqiSfxci.svg)](https://asciinema.org/a/XdsNXnI5mHb1mKuotnqiSfxci)
 
