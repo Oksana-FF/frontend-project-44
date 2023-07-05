@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Oksana-FF/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Oksana-FF/frontend-project-44/actions)",
+  "description": "Hexlet Project #1 - Brain Games",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Oksana Fatkhulova",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
