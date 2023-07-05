@@ -17,17 +17,17 @@
 
 ### Игра №2 "Вычисление результата случайных арифметических операций"
 Команда: brain-calc
-[![asciicast] (https://asciinema.org/a/OwH4ybX3jTuDP7zNQRAmiK0RY)
+[![asciicast](https://asciinema.org/a/OwH4ybX3jTuDP7zNQRAmiK0RY.svg)](https://asciinema.org/a/OwH4ybX3jTuDP7zNQRAmiK0RY)
 
 ### Игра №3 "Вычисление наибольшего общего делителя двух чисел"
 Команда: brain-gcd
-[![asciicast] (https://asciinema.org/a/oOFZ2LgFzEv5FUYVGFbAUyeeE)
+[![asciicast](https://asciinema.org/a/oOFZ2LgFzEv5FUYVGFbAUyeeE.svg)](https://asciinema.org/a/oOFZ2LgFzEv5FUYVGFbAUyeeE)
 
 ### Игра №4 "Определение пропущенного члена прогрессии"
 Команда: brain-progression
-[![asciicast] (https://asciinema.org/a/GxSBjDHbls8sQLqsaFacKNZas)
+[![asciicast](https://asciinema.org/a/GxSBjDHbls8sQLqsaFacKNZas.svg)](https://asciinema.org/a/GxSBjDHbls8sQLqsaFacKNZas)
 
 ### Игра №5 "Определение того, простое ли число"
 Команда: brain-prime
-[![asciicast] (https://asciinema.org/a/XdsNXnI5mHb1mKuotnqiSfxci)
+[![asciicast](https://asciinema.org/a/XdsNXnI5mHb1mKuotnqiSfxci.svg)](https://asciinema.org/a/XdsNXnI5mHb1mKuotnqiSfxci)
 
