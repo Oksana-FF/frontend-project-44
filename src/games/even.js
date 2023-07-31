@@ -1,15 +1,16 @@
-import { getGame, runNumber } from '../index.js';
+import startGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const evenNumber = (number) => number % 2 === 0;
+const isEvenNumber = (number) => number % 2 === 0;
 
 const missionGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const game = () => {
-  const number = runNumber(1, 100);
-  const answer = evenNumber(number) ? 'yes' : 'no';
+const getGame = () => {
+  const number = getRandomNumber(1, 100);
+  const answer = isEvenNumber(number) ? 'yes' : 'no';
   return [number, answer];
 };
 
 export default () => {
-  getGame(missionGame, game);
+  startGame(missionGame, getGame);
 };

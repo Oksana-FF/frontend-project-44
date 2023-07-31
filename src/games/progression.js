@@ -1,28 +1,29 @@
-import { getGame, runNumber } from '../index.js';
+import startGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const missionGame = 'What number is missing in the progression?';
 
-const progression = (firstNumber, lenghtPrg, step) => {
-  const runProgression = [];
+const getpProgression = (firstNumber, lenghtPrg, step) => {
+  const randomProgression = [];
   for (let i = 0; i <= lenghtPrg; i += 1) {
     const progrNumber = firstNumber + (i * step);
-    runProgression.push(progrNumber);
+    randomProgression.push(progrNumber);
   }
-  return runProgression;
+  return randomProgression;
 };
 
-const game = () => {
-  const lenghtPrg = runNumber(5, 10);
-  const firstNumber = runNumber(1, 20);
-  const step = runNumber(2, 4);
-  const runIndex = runNumber(0, lenghtPrg);
-  const runProgression = progression(firstNumber, lenghtPrg, step);
-  const answer = runProgression[runIndex];
-  runProgression[runIndex] = '..';
-  const question = runProgression.join(' ');
+const getGame = () => {
+  const lenghtPrg = getRandomNumber(5, 10);
+  const firstNumber = getRandomNumber(1, 20);
+  const step = getRandomNumber(2, 4);
+  const runIndex = getRandomNumber(0, lenghtPrg);
+  const randomProgression = getpProgression(firstNumber, lenghtPrg, step);
+  const answer = String(randomProgression[runIndex]);
+  randomProgression[runIndex] = '..';
+  const question = randomProgression.join(' ');
   return [question, answer];
 };
 
 export default () => {
-  getGame(missionGame, game);
+  startGame(missionGame, getGame);
 };

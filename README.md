@@ -7,7 +7,7 @@
 
 ### Установка:
 1. Клонирование репозитория: git clone git@github.com:Oksana-FF/frontend-project-44.git
-2. Выполнить команду: make install
+2. Выполнить команду: npm install
 
 ### Игра №1 "Определение четности числа"
 Команда: brain-even

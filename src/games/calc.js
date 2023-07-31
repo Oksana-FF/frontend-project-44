@@ -1,31 +1,37 @@
-import { getGame, runNumber } from '../index.js';
+import startGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const missionGame = 'What is the result of the expression?';
 
-const calc = (runNumber1, runNumber2, operation) => {
+const calcExpression = (randomNumber1, randomNumber2, operation) => {
+  let answer = '';
   switch (operation) {
     case '+':
-      return runNumber1 + runNumber2;
+      answer = String(randomNumber1 + randomNumber2);
+      break;
     case '-':
-      return runNumber1 - runNumber2;
+      answer = String(randomNumber1 - randomNumber2);
+      break;
     case '*':
-      return runNumber1 * runNumber2;
+      answer = String(randomNumber1 * randomNumber2);
+      break;
     default:
-      return null;
+      break;
   }
+  return answer;
 };
 
-const game = () => {
-  const runNumber1 = runNumber(1, 10);
-  const runNumber2 = runNumber(1, 10);
+const getGame = () => {
+  const randomNumber1 = getRandomNumber(1, 10);
+  const randomNumber2 = getRandomNumber(1, 10);
   const arrOperator = ['+', '-', '*'];
-  const ranOperation = arrOperator[Math.floor(Math.random() * arrOperator.length)];
+  const ranOperation = arrOperator[getRandomNumber(1, arrOperator.length)];
   const operation = ranOperation;
-  const compute = `${runNumber1} ${ranOperation} ${runNumber2}`;
-  const answer = calc(runNumber1, runNumber2, operation);
-  return [compute, answer];
+  const question = `${randomNumber1} ${ranOperation} ${randomNumber2}`;
+  const answer = String(calcExpression(randomNumber1, randomNumber2, operation));
+  return [question, answer];
 };
 
 export default () => {
-  getGame(missionGame, game);
+  startGame(missionGame, getGame);
 };
