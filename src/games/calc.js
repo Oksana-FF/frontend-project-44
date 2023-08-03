@@ -14,6 +14,7 @@ const calcExpression = (randomNumber1, randomNumber2, operation) => {
     default:
       break;
   }
+  return operation;
 };
 
 const getQuestionAndAnswer = () => {
