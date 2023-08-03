@@ -12,8 +12,7 @@ const calcExpression = (randomNumber1, randomNumber2, operation) => {
     case '*':
       return randomNumber1 * randomNumber2;
     default:
-      console.log('error');
-      return undefined;
+      break;
   }
 };
 
@@ -21,9 +20,9 @@ const getQuestionAndAnswer = () => {
   const randomNumber1 = getRandomNumber(1, 10);
   const randomNumber2 = getRandomNumber(1, 10);
   const operators = ['+', '-', '*'];
-  const ranOperator = operators[getRandomNumber(1, operators.length)];
-  const operation = ranOperator;
-  const question = `${randomNumber1} ${ranOperator} ${randomNumber2}`;
+  const randomOperator = operators[getRandomNumber(1, operators.length)];
+  const operation = randomOperator;
+  const question = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
   const answer = String(calcExpression(randomNumber1, randomNumber2, operation));
   return [question, answer];
 };
